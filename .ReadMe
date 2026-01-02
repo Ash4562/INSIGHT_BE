@@ -1,0 +1,44 @@
+// -- payment status while adding student is not turning partial on partial payment
+// -- I have to check whether this
+//       student.fees_details.installments.push({
+//         amount: Number(amount),
+//         status: "paid",
+//         paymentKeys: {
+//           razorpay_order_id,
+//           razorpay_payment_id,
+//           razorpay_signature,
+//         },
+//       });
+//       line in verify partial payment is working or not
+
+// --- Over all to check whether the payment and verifying related api's are working correctly or not ?
+// --- On FE check whether if the refresh token is not there then navigating to /login or not? 
+// --- Wrong paid amount, installments, partial payments
+
+
+// --- Frontend remaining task --> 
+// --- On logout hit make/me/inactive api, first create on backend
+
+
+For only today
+-> SSR and CSR,
+server side rendering, and client side rendering
+in CSR --> browser first load a blank page, then render the content using JS, webpacks.
+in SSR --> server sends a fully loaded HTML file to browser, which improves the SEO. 
+SSG --> SSG generates the page on built time, which makes the app faster.
+ISR --> allows those static pages to be updated in the background without rebuilding the entire app.
+How routing works in Next.js --> Next.js uses file-based routing.
+The folder structure inside the app or pages directory automatically becomes routes.
+Both are used to define data structures.
+interface is mainly used for object shapes and can be extended, while type is more flexible and can define unions and complex types.
+
+
+
+ONline --> offline -> off -> online
+all -> online , payment_status is not completed, still partial
+
+--> full amount at first
+--> Partial Payment Online
+--> Partial Payment offline
+--> Once All Payment is Completed, add a add_on, then complete the partial payments.
+
