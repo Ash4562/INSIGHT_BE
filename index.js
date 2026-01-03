@@ -35,11 +35,13 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "http://localhost:5174",
       "https://insight-asi1.onrender.com",
       "https://insight-reception-fe.onrender.com",
       "https://insight-admin.onrender.com",
       "https://counsillorpanel.onrender.com",
-      "https://insight-counsellor-panel.onrender.com"
+      "https://insight-counsellor-panel.onrender.com",
+      "https://insight-reception.onrender.com"
     ],
     credentials: true,
   })
