@@ -44,6 +44,7 @@ app.use(
       "https://insight-reception.onrender.com"
     ],
     credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS","PATCH"],
   })
 );
 
