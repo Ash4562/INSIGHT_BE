@@ -42,8 +42,8 @@ app.use(
       "https://counsillorpanel.onrender.com",
       "https://insight-counsellor-panel.onrender.com",
       "https://insight-reception.onrender.com",
-      "http://counsellor.insightedu.in/",
-      "http://counsellor.insightedu.in"
+      "https://counsellor.insightedu.in/",
+      "https://counsellor.insightedu.in"
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS","PATCH"],
